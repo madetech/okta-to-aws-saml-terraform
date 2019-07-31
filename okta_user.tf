@@ -1,7 +1,7 @@
 
 resource "aws_iam_user" "okta_api" {
   name = module.okta_label.id
-  tags = "module.okta_label.tags"
+  tags = module.okta_label.tags
 }
 
 data "aws_iam_policy_document" "assume-saml-role" {
