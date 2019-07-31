@@ -35,3 +35,7 @@ resource "aws_iam_role_policy_attachment" "admin" {
 output "identity-provider-arn" {
   value = aws_iam_saml_provider.okta.arn
 }
+
+output "iam-role-name" {
+  value = aws_iam_role.saml.name
+}
