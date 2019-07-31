@@ -1,5 +1,5 @@
 # okta-to-aws-saml-terraform
-Terraform to automate the setup "connect okta to a single AWS instance" steps described here Https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Amazon-Web-Service.html
+Terraform to automate the setup "connect okta to a single AWS instance" [steps described here](Https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Amazon-Web-Service.html)
 
 ## Prerequisites 
 - Terraform `0.12.*`
